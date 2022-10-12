@@ -11,7 +11,7 @@ Su objetivo es didáctico y funciona como proyecto de evaluación de lo visto en
 
 Corresponde a los requerimientos mínimos solicitados para la creación de un sistema de envío de mensajes entre usuarios.
 
-### NRC 2095 - Grupo 09
+### NRC 2096 - Grupo 03
 
 ### Integrante: 
 * Danilo José Gómez Comas
