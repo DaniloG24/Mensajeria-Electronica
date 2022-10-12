@@ -14,4 +14,5 @@ Corresponde a los requerimientos mínimos solicitados para la creación de un si
 ### NRC 2096 - Grupo 03
 
 ### Integrante: 
-* Danilo José Gómez Comas
+- Danilo Gómez Comas
+- Carlos Bolaños
