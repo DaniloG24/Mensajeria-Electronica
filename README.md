@@ -1,15 +1,23 @@
-# app-mensajeria-electronica
-## Proyecto de Ciclo III Mintic 2022
+# Demo Flask
 
-### Proyecto Flask en el marco de Misión TIC 2022 | Uninorte Ciclo 3
+## Dependencies
+To install the required dependencies, please follow these steps:
 
-_Proyecto basado en plantilla_
+1. Open a console.
+2. Go to the project directory (with `cd` command).
+3. Write and execute `pip3 install -r requirements.txt`.
 
-app-mensajeria es una aplicacion básica desarrollada en Python utilizando Flask como framework de desarrollo Web.
+## Initializate DB
+To run the app, you need to provide a Microsoft account for the app to send/receive emails. To add this account follow these steps:
 
-Su objetivo es didáctico y funciona como proyecto de evaluación de lo visto en el transcurso del ciclo 3 de Misión TIC Universidad del Norte en el contexto del diplomado __Misión TIC (22) - HABILIDADES EN PROGRAMACIÓN CON ÉNFASIS EN: APLICACIONES WEB // APLICACIONES MÓVILES__ . 
+1. Open the file `schema.sql`.
+2. Locate the line `INSERT INTO credentials (name,user,password) VALUES ('EMAIL_APP','developmentcapstone', '$TR41NC0URS3R4$')`.
+3. Replace `developmentcapstone` with the email address.
+4. Replace `$TR41NC0URS3R4$` with a password to access the email account.
+5. Run `flask init-db` on the project directory.
 
-Corresponde a los requerimientos mínimos solicitados para la creación de un sistema de envío de mensajes entre usuarios.
+## Run application
+For run the app you need to use `flask run` on the project directory.
 
 ### NRC 2096 - Grupo 03
 
